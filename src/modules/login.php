@@ -10,13 +10,11 @@
         <meta name="author" content="Renan Dias">
         <title>AGROCROODLE · Login</title>
 
-        
-
         <!-- CSS -->
-    <link href="./static/css/bootstrap/bootstrap.min.css" rel="stylesheet" >
-    <link href="./static/css/pages/login.css" rel="stylesheet" >
+    <link href="../static/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link  href="../static/css/pages/login.css" rel="stylesheet">
 
-        <!-- Favicon -->
+       <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../agrocroogle/public/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../agrocroogle/public/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../agrocroogle/public/apple-icon-72x72.png">
@@ -30,35 +28,43 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../agrocroogle/public/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../agrocroogle/public/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../agrocroogle/public/favicon-16x16.png">
-    <link rel="manifest" href="public/manifest.json">
+    <link rel="manifest" href="../agrocroogle/public/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
             
     </head>
   <body class="text-center">
-    
+
+  <!-- 
+    <header class="mb-auto">
+        <div>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link active" aria-current="page" href="../../index.php">Login</a>
+            </nav>
+        </div>
+    </header> 
+    -->
+
 <main class="form-signin">
-  <form>
-    <img class="mb-4" src="" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+  <form method="post">
+    <img class="mb-4" src="../../public/img/agrocroogle_logo.png" alt="Logo Agrocroogle" width="100" height="100">
+    <h1 class="h3 mb-3 fw-normal">Logue-se</h1>
 
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+      <label for="floatingInput">email</label>
     </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
+   
 
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"> Remember me
+        <input type="checkbox" value="remember-me"> Manter conectado
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+    <a href="register.php" class="link-primary">Registre-se</a>
+    <p class="mt-5 mb-3 text-muted">Desenvolvido por Renan Dias - Design by bootstrap signin template</p>
   </form>
 </main>
 

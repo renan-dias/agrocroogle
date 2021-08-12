@@ -59,7 +59,7 @@
 
       <!-- Footer area-->
     <footer class="mt-auto text-white-50">
-        <p>Desenvolvido por Renan Dias</p>     
+        <p>Desenvolvido por Renan Dias - Design by Bootstrap cover template</p>     
       </footer> 
     </div>
 
